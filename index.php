@@ -126,7 +126,7 @@
                 <p>Thank you for checking out my pizza shop.</p>
                 <div class="mb-3">
                     <button type="submit" class="btn btn-primary px-3 rounded-3">
-                        Save
+                        Saves
                     </button>
                 </div>
             </form>
