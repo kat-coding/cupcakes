@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS/pizza.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>pizza</title>
+    <title>Cupcakes</title>
 </head>
 <body>
-<div class="text-center" id="name_logo">
-    <img id="casper" src="/IMAGES/casper.jpg" class="rounded-circle , center" alt="caspers' Pizza">
-    <H1>Cazpers' Ghostly Pizza</H1>
+<div class="text-center" >
+    <h1>Cupcake Fundraiser</h1>
 </div>
 <div class="container">
     <div class="row mx-0 justify-content-center">
@@ -18,32 +17,9 @@
             <form class="w-100 rounded-1 p-4 border bg-white">
                 <label class="d-block mb-4">
                     <span class="form-label d-block">Your name</span>
-                    <input name="name"  type="text"  class="form-control"  placeholder="Casper Ghostly"/>
+                    <input name="name"  type="text"  class="form-control"  placeholder="Name"/>
                 </label>
-                <label class="d-block mb-4">
-                    <span class="form-label d-block">Address</span>
-                    <input name="address1"  type="text"  class="form-control"/>
-                </label>
-                <label class="d-block mb-4">
-                    <span class="form-label d-block">City</span>
-                    <input name="city" type="text" class="form-control"/>
-                </label>
-                <label class="d-block mb-4">
-                    <span class="form-label d-block">State/Province</span>
-                    <input name="state" type="text" class="form-control"/>
-                </label>
-                <label class="d-block mb-4">
-                    <span class="form-label d-block">Zip/Postal code</span>
-                    <input name="zip" type="text" class="form-control" />
-                </label>
-                <label class="d-block mb-4">
-                    <span class="form-label d-block">Country</span>
-                    <input  name="country"  type="text"  class="form-control"/>
-                </label>
-                <label class="d-block mb-4">
-                    <span class="form-label d-block">Telephone</span>
-                    <input name="telephone"  type="text"  class="form-control"  placeholder=""/>
-                </label>
+
                 <label class="d-block mb-4">
                     <span class="form-label d-block">Size</span>
                     <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
