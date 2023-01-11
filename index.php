@@ -22,7 +22,7 @@ $name ="";
             <form class="w-100 rounded-1 p-4 border bg-white" method="GET" action="process.php">
                 <label class="d-block mb-4">
                     <span class="form-label d-block">Your name</span>
-                    <input name="name"  type="text"  class="form-control"  placeholder="Please input your name:" name="name" value="<?php echo $name;?>"/>
+                    <input name="name"  type="text"  class="form-control"  placeholder="Please input your name:"/>
                 </label>
                 <label class="d-block mb-4">
                     <span class="form-label d-block">Cupcake flavor:</span>

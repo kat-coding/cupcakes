@@ -1,5 +1,9 @@
 <?php
-
+if(isset($_GET['name'])){
+    $fname = $_GET['name'];
+}else{
+    $fname = 'anonymous shopper';
+}
 $flavors = $_GET['flavor'];
 if(empty($flavors)){
     echo("No flavors chosen");
