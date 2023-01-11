@@ -2,6 +2,7 @@
 if(isset($_GET['name'])){
     $fname = $_GET['name'];
     echo('Thank you, '.$fname.', for your order!');
+    echo("<br>");
 }else{
     $fname = 'anonymous shopper';
 }
