@@ -1,11 +1,16 @@
 <?php
 
-if( !isset($_GET['flavor'])){
-    $flavors = "none chosen";
+$flavors = $_GET['flavor'];
+if(empty($flavors)){
+    echo("No flavors chosen");
 }else{
-    $flavors = $_GET['flavor'];
+    $count = count($flavors);
+    echo "Your flavor choices: ";
+
+    for($i=0; i < $count; $i++){
+        echo($flavors[$i]. ", ");
+    }
 }
-echo "Your flavor choices: ";
-echo $flavors;
-foreach ($flavors as $flavor) echo $flavor."<br />";
+
+
 
