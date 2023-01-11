@@ -19,7 +19,7 @@ $name ="";
 <div class="container">
     <div class="row mx-0 justify-content-center">
         <div class="col-md-7 col-lg-5 px-lg-2 col-xl-4 px-xl-0 px-xxl-3">
-            <form class="w-100 rounded-1 p-4 border bg-white">
+            <form class="w-100 rounded-1 p-4 border bg-white" method="GET" action="process.php">
                 <label class="d-block mb-4">
                     <span class="form-label d-block">Your name</span>
                     <input name="name"  type="text"  class="form-control"  placeholder="Please input your name:" name="name" value="<?php echo $name;?>"/>
