@@ -26,6 +26,7 @@ $name ="";
                 </label>
                 <label class="d-block mb-4">
                     <span class="form-label d-block">Cupcake flavor:</span>
+                </label>
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="Grasshopper" name=’flavor[]’ id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
@@ -69,7 +70,7 @@ $name ="";
                         </label>
                     </div>
 
-                </label>
+
 
                 <div class="mb-3">
                     <button type="submit" class="btn btn-primary px-3 rounded-3" value="submit">

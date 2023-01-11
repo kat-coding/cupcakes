@@ -6,19 +6,19 @@ if(isset($_GET['name'])){
 }else{
     $fname = 'anonymous shopper';
 }
-$flavors = $_GET['flavor'];
+$flavors = array($_GET['flavor']);
 if(empty($flavors)){
     echo("No flavors chosen");
 }else{
     $count = count($flavors);
     echo "Order Summary: ";
 
-    for($i=0; i < $count; $i++){
-        echo("<li>".$flavors[$i]."</li>");
+    foreach($flavors as $flavors=>$value){
+        echo("<li>".$value."</li>");
     }
     echo("<br>");
     $cost = $count * 3.50;
-    echo("Order Total: $".$cost);
+    echo("Order Total: $".number_format($cost, 2));
 }
 
 
