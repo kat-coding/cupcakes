@@ -27,7 +27,7 @@ $name ="";
                 <label class="d-block mb-4">
                     <span class="form-label d-block">Cupcake flavor:</span>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Grasshopper" name=’flavor[]’ id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="Grasshopper" name=’flavor[]’ id="flavor">
                         <label class="form-check-label" for="flexCheckDefault">
                             The Grasshopper
                         </label>
