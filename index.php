@@ -24,7 +24,6 @@ $name ="";
                     <span class="form-label d-block">Your name</span>
                     <input name="name"  type="text"  class="form-control"  placeholder="Please input your name:" name="name" value="<?php echo $name;?>"/>
                 </label>
-
                 <label class="d-block mb-4">
                     <span class="form-label d-block">Cupcake flavor:</span>
                     <div class="form-check">
