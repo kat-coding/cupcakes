@@ -1,12 +1,14 @@
 <?php
-if(isset($_GET['name'])){
+if(!empty($_GET['name'])){
     $fname = $_GET['name'];
     echo('Thank you, '.$fname.', for your order!');
     echo("<br>");
 }else{
-    $fname = 'anonymous shopper';
+    echo('Error: No name was provided for this order.');
+    echo('<br>');
 }
-$flavors = array($_GET['flavor']);
+$flavors = $_GET['flavor'];
+
 if(empty($flavors)){
     echo("No flavors chosen");
 }else{

@@ -28,43 +28,43 @@ $name ="";
                     <span class="form-label d-block">Cupcake flavor:</span>
                 </label>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Grasshopper" name=’flavor[]’ id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="Grasshopper" name="flavor[]" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                             The Grasshopper
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Whiskey" name=’flavor[]’ id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="Whiskey" name="flavor[]" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                             Whiskey Maple Bacon
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Carrot" name=’flavor[]’ id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="Carrot" name="flavor[]" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                             Carrot Walnut
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Grasshopper" name=’flavor[]’ id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="Grasshopper" name="flavor[]" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                             Salted Caramel Cupcake
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Red" name=’flavor[]’ id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="Red" name="flavor[]" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                             Red Velvet
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Lemon" name=’flavor[]’ id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="Lemon" name="flavor[]" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                             Lemon Drop
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Tiramisu" name=’flavor[]’ id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="Tiramisu" name="flavor[]" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                             Tiramisu
                         </label>
