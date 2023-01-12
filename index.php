@@ -1,3 +1,13 @@
+<?php
+//Katherine Watkins and Alex Brenna
+//01/11/2023
+//https://github.com/kat-coding/cupcakes.git
+//https://katherine-watkins.greenriverdev.com/328/cupcakes/index.php
+/*
+ * This is a simple cupcake order form that sends order information via GET to process.php
+ */
+
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -22,7 +32,7 @@ $name ="";
             <form class="w-100 rounded-1 p-4 border bg-white" method="GET" action="process.php">
                 <label class="d-block mb-4">
                     <span class="form-label d-block">Your name</span>
-                    <input name="name"  type="text"  class="form-control"  placeholder="Please input your name:"/>
+                    <input name="name"  type="text"  class="form-control"  placeholder="Please input your name:" required>
                 </label>
                 <label class="d-block mb-4">
                     <span class="form-label d-block">Cupcake flavor:</span>
